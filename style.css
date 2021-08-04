@@ -1,0 +1,32 @@
+nav ul {
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(131, 5, 5);
+    padding: 5px 15px;
+    border-radius: 100px;
+    color: white;
+    background: rgb(151, 27, 27);
+}
+nav li a:hover {
+    background: black;
+}
+.top-page {
+    text-decoration: none;
+    background-color: rgb(161, 161, 161);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    display: none;
+    opacity: 0.75;
+}
